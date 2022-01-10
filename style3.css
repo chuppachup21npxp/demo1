@@ -1,0 +1,103 @@
+.flex {
+  display: flex;
+}
+.left img {
+  width: 100%;
+}
+
+.left,
+.right {
+  margin: 3px;
+  padding: 3px;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content > div {
+  width: 50%;
+}
+
+.thumb > div {
+  width: 25%;
+  margin: 2px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.tab {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab > li {
+  margin-right: 5px;
+}
+
+.tab > li > a {
+  display: block;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+
+div.buttons > div > ul {
+  background-color: rgb(196, 190, 190);
+}
+
+.space {
+  width: 100%;
+  height: 200px;
+}
+.mid > ul {
+  width: 95%;
+  margin-left: 30px;
+  display: flex;
+}
+.mid > ul > li:first-child > p:first-child {
+  font-size: 30px;
+}
+.mid > ul > li:first-child {
+  list-style-type: none;
+  width: 80%;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.mid > ul > li:last-child {
+  list-style-type: none;
+  width: 25%;
+  border: 2px groove red;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.mid > ul > li:last-child > a {
+  text-decoration: none;
+}
+.mid > ul > li:last-child > a > img {
+  height: 75px;
+  width: 75px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+.mid > ul > li:last-child > a > div > h1 {
+  font-size: 15px;
+}
+.red {
+  color: red;
+}
+.twenty {
+  font-size: 20px;
+}
+.topic {
+  color: rgb(253, 188, 7);
+}
+
+h1.center {
+  text-align: center !important; /*Tiêu đề*/
+}

@@ -1,0 +1,259 @@
+a {
+  text-decoration: none !important;
+}
+
+/**CSS MENU**/
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: auto;
+}
+
+header {
+  background-color: rgb(253, 188, 7);
+  display: flex !important;
+  margin-top: 15px;
+}
+
+nav ul > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 12px 26px;
+  color: black;
+}
+
+nav ul > li > a:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+nav ul > li:last-child > a {
+  border-right: none;
+}
+
+/***CSS SUBCONTENT***/
+.subcontent {
+  display: none;
+  position: absolute;
+  background-color: rgb(253, 188, 7);
+  list-style-type: none;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.subcontent li a {
+  display: block;
+}
+.submenu:hover .subcontent {
+  display: block;
+}
+
+nav ul > li > ul > li > a {
+  display: block;
+}
+.one {
+  width: 118px;
+}
+.two {
+  width: 158.5px;
+}
+.three {
+  width: 202px;
+}
+
+div.linetop,
+div.linebottom {
+  border-bottom: 5px solid gold;
+}
+header {
+  display: flex;
+  height: 50px;
+  width: 99%;
+  margin: auto;
+}
+
+header > div > img {
+  height: 100%;
+  width: 120px;
+}
+
+header > div {
+  width: 8%;
+}
+
+header > nav {
+  width: 92%;
+}
+/*CSS BANNER*/
+section.banner {
+  animation: doinen 90s infinite;
+  height: 450px;
+  width: 900px;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+@keyframes doinen {
+  0% {
+    background-image: url("../VSC/HinhAnh/banner_index/1(2).jpg");
+  }
+  10% {
+    background-image: url("../VSC/HinhAnh/banner_index/2(2).jpg");
+  }
+  20% {
+    background-image: url("../VSC/HinhAnh/banner_index/3(2).jpg");
+  }
+  30% {
+    background-image: url("../VSC/HinhAnh/banner_index/4(2).jpg");
+  }
+  40% {
+    background-image: url("../VSC/HinhAnh/banner_index/5(2).jpg");
+  }
+  50% {
+    background-image: url("../VSC/HinhAnh/banner_index/6(2).jpg");
+  }
+  60% {
+    background-image: url("../VSC/HinhAnh/banner_index/7(2).jpg");
+  }
+  70% {
+    background-image: url("../VSC/HinhAnh/banner_index/8(2).jpg");
+  }
+  80% {
+    background-image: url("../VSC/HinhAnh/banner_index/9(2).jpg");
+  }
+  90% {
+    background-image: url("../VSC/HinhAnh/banner_index/10(2).jpg");
+  }
+  100% {
+    background-image: url("../VSC/HinhAnh/banner_index/11(2).jpg");
+  }
+}
+
+/***CSS Menu First***/
+div.first {
+  color: rgb(253, 188, 7);
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.carousel-inner {
+  width: 40%;
+  margin-left: 550px;
+}
+
+/***INSTRUCTION***/
+.instruction {
+  display: flex;
+  width: 100%;
+}
+
+iframe {
+  padding-left: 80px;
+}
+
+a.special {
+  font-size: 30px;
+  color: black;
+}
+
+a.special ~ a {
+  color: black;
+  font-size: 18px;
+}
+
+a.special:hover {
+  color: greenyellow;
+}
+
+a.special ~ a:hover {
+  color: greenyellow;
+}
+
+a.special > p {
+  font-size: 12.5px;
+  color: black;
+}
+
+.col50 {
+  width: 48%;
+  border-left: 2px solid gold;
+}
+
+div.col50:first-child {
+  border-left: none !important;
+}
+
+div.col50 > a {
+  margin-left: 50px;
+}
+
+div.col50:first-child > a {
+  display: block;
+  margin-left: 60px;
+}
+.opal {
+  opacity: 0;
+}
+
+a#gototop {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: greenyellow;
+  display: block;
+  padding: 15px 20px;
+  color: grey;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+/***CSS LAST***/
+section.last {
+  display: flex;
+  width: 100%;
+}
+.last div {
+  width: 50%; /**Dòng 355**/
+}
+.last div > ul > li {
+  list-style-type: none;
+  background-color: black;
+  color: aliceblue;
+  padding-left: 0;
+  margin-left: 0;
+}
+.last div ul > li:first-child {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.last div ul li a {
+  list-style-type: none;
+  color: rgb(253, 188, 7);
+}
+.last div ul li a:hover {
+  list-style-type: none;
+  color: greenyellow;
+}
+.last div ul li {
+  color: rgb(253, 188, 7);
+}
+.last > div {
+  background-color: black;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+section.evaluate > div {
+  display: flex;
+}
+section.evaluate > div {
+  display: block;
+}
+input[type="text"] {
+  margin: 8px;
+  width: 400px;
+}

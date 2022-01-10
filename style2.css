@@ -1,0 +1,83 @@
+/** Giới thiệu **/
+section.under > p,
+section.under > div,
+section.under > div > p {
+  width: 80%;
+  margin-left: 150px !important;
+}
+
+section.under > p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+img.eximg {
+  margin-left: 160px;
+}
+
+section.under > div > p {
+  text-align: center;
+}
+/** Giới thiệu **/
+
+/** Chọn giày **/
+.maintitle {
+  text-align: center;
+  margin-top: 50px;
+  width: 85%;
+  margin-left: 80px;
+}
+.smaller {
+  text-align: center;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-top: 15px;
+  margin-bottom: 120px;
+  width: 81%;
+}
+section.review {
+  margin-left: 10px;
+}
+textarea {
+  top: 1500px !important;
+  margin-top: 150px;
+  margin: 10px;
+}
+h2 {
+  font-size: 35px;
+}
+section.evaluate {
+  display: flex;
+  width: 75%;
+}
+.evaluate div {
+  width: 50%;
+}
+li {
+  list-style-type: none;
+}
+
+/** Chọn giày **/
+
+/* Quần áo */
+.col30 {
+  margin: 5px;
+  margin-left: 0;
+  text-align: center;
+  width: 23%;
+  border: 1px solid red;
+}
+
+.col30:first-child {
+  margin-left: 80px;
+}
+
+.row {
+  width: 96%;
+}
+div.boder {
+  border: 2px solid blue;
+  margin: 2px;
+}
+/* Quần áo */
